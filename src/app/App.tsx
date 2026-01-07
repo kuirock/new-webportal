@@ -25,7 +25,7 @@ type Screen = 'splash' | 'notifications' | 'news-list' | 'news-detail';
 
 const CHARACTER_PROFILE = {
   name: 'エディ',
-  image: '/public/Edi_stand2.png',
+  image: '/Edi_stand2.png',
 };
 
 // --- アイテム定義 ---
