@@ -34,7 +34,7 @@ export function EdiChatWindow({ isOpen, onClose, userName = '先輩', newsList =
     const scrollRef = useRef<HTMLDivElement>(null);
 
     // ★ここでエディちゃんの画像パスを指定！
-    const EDI_IMAGE_SRC = '/public/Edi_stand2.png';
+    const EDI_IMAGE_SRC = '/Edi_stand2.png';
 
     useEffect(() => {
         if (scrollRef.current) {
